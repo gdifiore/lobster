@@ -22,3 +22,11 @@ def getHeader(lobster_data):
 def getContent(lobster_data):
     content = lobster_data["content"]
     return content
+
+def getAuthor(lobster_data):
+    content = lobster_data["author"]
+    return content
+
+def getDate(lobster_data):
+    content = lobster_data["date"]
+    return content
